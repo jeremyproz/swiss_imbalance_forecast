@@ -1,0 +1,7 @@
+env:
+  API_TOKEN: ${{ secrets.API_TOKEN }}
+
+entsoe:
+  base_url: "https://web-api.tp.entsoe.eu/api"
+  endpoints:
+    imbalance_price: 
