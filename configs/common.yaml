@@ -1,0 +1,10 @@
+env:
+  DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+  DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+
+  ENTSOE_TOKEN: ${{ secrets.ENTSOE_TOKEN }}
+
+entsoe:
+  base_url: "https://web-api.tp.entsoe.eu/api"
+  endpoints:
+    imbalance_price: "documentType=A85"
